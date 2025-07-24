@@ -60,10 +60,10 @@
 //                     |      |      |      |        |  |       |      |       |       |
             display-name = "Media";
             bindings = <
-&trans     &trans       &trans       &trans       &trans       &trans               &trans &trans               &trans            &trans             &trans &trans 
-&trans     &trans       &kp UP       &trans       &trans       &trans               &trans &kp LC(LG(LEFT))     &kp LC(LA(UP))    &kp LC(LG(RIGHT))  &trans &trans 
-&trans     &kp LEFT     &kp DOWN     &kp RIGHT    &trans       &trans               &trans &kp LC(LA(LEFT))     &kp LC(LA(LG(F))) &kp LC(LA(RIGHT))  &trans &trans 
-&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4         &trans &kp LA(LC(LG(LEFT))) &kp LC(LA(DOWN))  &LA(LC(LG(RIGHT))) &trans &trans
+&trans     &trans       &trans       &trans       &trans       &trans               &trans &trans               &trans            &trans                &trans &trans 
+&trans     &trans       &kp UP       &trans       &trans       &trans               &trans &kp LC(LG(LEFT))     &kp LC(LA(UP))    &kp LC(LG(RIGHT))     &trans &trans 
+&trans     &kp LEFT     &kp DOWN     &kp RIGHT    &trans       &trans               &trans &kp LC(LA(LEFT))     &kp LC(LA(LG(F))) &kp LC(LA(RIGHT))     &trans &trans 
+&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4         &trans &kp LA(LC(LG(LEFT))) &kp LC(LA(DOWN))  &kp LA(LC(LG(RIGHT))) &trans &trans
                         &trans       &trans       &trans       &trans               &trans &trans               &trans            &trans
             >;
 
