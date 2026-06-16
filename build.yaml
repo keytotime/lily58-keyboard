@@ -1,6 +1,6 @@
 # This file generates the GitHub Actions matrix
 # For simple board + shield combinations, add them
-# to the top level board and shield arrays, for more
+# to the top level board and shield arrays, for more`
 # control, add individual board + shield combinations to
 # the `include` property, e.g:
 #
@@ -18,3 +18,5 @@ include:
     snippet: studio-rpc-usb-uart
   - board: nice_nano_v2
     shield: lily58_right nice_view_adapter nice_view
+  - board: nice_nano_v2
+    shield: settings_reset
